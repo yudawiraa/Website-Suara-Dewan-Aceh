@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Berita Nasional - Pak Ghufran</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <span class="brand-text">
+            <span class="text-primary">Suara</span>
+            <span class="text-success">Dewan</span>
+            <span class="text-danger">Aceh</span>
+          </span>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto me-3">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="media.html">Media</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="aspirasi-2.html">Aspirasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="dapil.html">Dapil</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="nasional.html">Nasional</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <div class="input-group">
+              <input
+                class="form-control"
+                type="search"
+                placeholder="Cari..."
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-primary" type="submit">
+                <i class="bi bi-search"></i> Cari
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section for Nasional -->
+    <section class="hero-nasional py-5 bg-primary text-white">
+      <div class="container">
+        <div class="row align-items-center min-vh-50">
+          <div class="col-lg-8 mx-auto text-center">
+            <h1 class="display-4 fw-bold">Berita Nasional</h1>
+            <p class="lead">
+              Informasi dan updates terkini tentang kegiatan Pak Ghufran di
+              tingkat nasional
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- News Grid Section -->
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <!-- News Item 1 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="path-to-image-1.jpg"
+                class="card-img-top"
+                alt="Berita 1"
+              />
+              <div class="card-body">
+                <div class="badge bg-primary mb-2">Legislasi</div>
+                <h5 class="card-title">Rapat Komisi VI DPR RI</h5>
+                <p class="card-text">
+                  Pembahasan RUU tentang Pemberdayaan UMKM dan penguatan ekonomi
+                  nasional.
+                </p>
+                <a href="#" class="btn btn-outline-primary"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- News Item 2 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="path-to-image-2.jpg"
+                class="card-img-top"
+                alt="Berita 2"
+              />
+              <div class="card-body">
+                <div class="badge bg-success mb-2">Kunjungan Kerja</div>
+                <h5 class="card-title">Peninjauan Proyek Infrastruktur</h5>
+                <p class="card-text">
+                  Monitoring pembangunan infrastruktur strategis nasional.
+                </p>
+                <a href="#" class="btn btn-outline-primary"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <!-- News Item 3 -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card h-100 shadow-sm">
+              <img
+                src="path-to-image-3.jpg"
+                class="card-img-top"
+                alt="Berita 3"
+              />
+              <div class="card-body">
+                <div class="badge bg-info mb-2">Kebijakan</div>
+                <h5 class="card-title">Forum Ekonomi Nasional</h5>
+                <p class="card-text">
+                  Diskusi tentang strategi pemulihan ekonomi nasional
+                  post-pandemi.
+                </p>
+                <a href="#" class="btn btn-outline-primary"
+                  >Baca Selengkapnya</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Berita Section -->
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="d-flex justify-content-between align-items-center mb-4">
+          <h2>Berita</h2>
+          <a href="#" class="text-decoration-none">LIHAT SEMUA</a>
+        </div>
+        <div class="row g-4">
+          <!-- Berita Item 1 -->
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+              <img
+                src="path-to-image-1.jpg"
+                class="card-img-top"
+                alt="Berita 1"
+              />
+              <div class="card-body">
+                <div class="mb-2 text-muted">
+                  <i class="bi bi-calendar"></i> Rabu, 12 Februari 2025
+                </div>
+                <h5 class="card-title">
+                  ASDP Salurkan 750 Paket Bantuan Untuk Korban Banjir
+                </h5>
+                <a href="#" class="text-primary text-decoration-none"
+                  >Baca Selengkapnya <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Berita Item 2 -->
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+              <img src="images (1).jpg" class="card-img-top" alt="Berita 2" />
+              <div class="card-body">
+                <div class="mb-2 text-muted">
+                  <i class="bi bi-calendar"></i> Selasa, 11 Februari 2025
+                </div>
+                <h5 class="card-title">
+                  Hadiri Peluncuran IETF, PLN Raih Dukungan Hibah
+                </h5>
+                <a href="#" class="text-primary text-decoration-none"
+                  >Baca Selengkapnya <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Berita Item 3 -->
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+              <img
+                src="path-to-image-3.jpg"
+                class="card-img-top"
+                alt="Berita 3"
+              />
+              <div class="card-body">
+                <div class="mb-2 text-muted">
+                  <i class="bi bi-calendar"></i> Selasa, 11 Februari 2025
+                </div>
+                <h5 class="card-title">
+                  Telkom Salurkan Bantuan Air Bersih Ke 232 Lokasi
+                </h5>
+                <a href="#" class="text-primary text-decoration-none"
+                  >Baca Selengkapnya <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Berita Item 4 -->
+          <div class="col-md-6">
+            <div class="card border-0 shadow-sm h-100">
+              <img
+                src="path-to-image-4.jpg"
+                class="card-img-top"
+                alt="Berita 4"
+              />
+              <div class="card-body">
+                <div class="mb-2 text-muted">
+                  <i class="bi bi-calendar"></i> Jumat, 2 Februari 2024
+                </div>
+                <h5 class="card-title">FGD Pengadaan Barang Dan Jasa</h5>
+                <a href="#" class="text-primary text-decoration-none"
+                  >Baca Selengkapnya <i class="bi bi-arrow-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h5>Tentang Pak Ghufran</h5>
+            <p>
+              Caleg DPR RI Komisi VI yang berkomitmen untuk memajukan
+              kesejahteraan rakyat Indonesia.
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Kontak</h5>
+            <p>
+              Email: info@pakghufran.id<br />
+              Telepon: (021) xxx-xxxx<br />
+              Alamat: Jakarta, Indonesia
+            </p>
+          </div>
+          <div class="col-md-4">
+            <h5>Media Sosial</h5>
+            <div class="social-links">
+              <a href="#" class="text-light me-3">Facebook</a>
+              <a href="#" class="text-light me-3">Twitter</a>
+              <a href="#" class="text-light">Instagram</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

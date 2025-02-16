@@ -1,0 +1,51 @@
+/* Additional styles for media page */
+.page-header {
+  background: linear-gradient(rgba(0, 123, 255, 0.9), rgba(0, 123, 255, 0.7));
+  margin-bottom: 2rem;
+}
+
+.card {
+  overflow: hidden;
+}
+
+.card img {
+  transition: transform 0.3s ease;
+}
+
+.card:hover img {
+  transform: scale(1.05);
+}
+
+.modal-content {
+  border-radius: 10px;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 1.5rem;
+}
+
+.modal-body {
+  padding: 0 1.5rem 1.5rem;
+}
+
+.ratio {
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.btn-outline-primary:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .page-header {
+    text-align: center;
+  }
+
+  .display-4 {
+    font-size: 2.5rem;
+  }
+}
